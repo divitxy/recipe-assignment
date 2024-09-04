@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    height: 140vh;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+  
+    
+}
+
+.nav-center {
+    width: 75%;
+    
+}
+
+.nav-header{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header img {
+    width: 200px;
+}
+.nav-logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 95px ;
+    margin: 0 300px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family:  "Poppins", sans-serif;
+}
+
+.nav-links a:hover{
+    color: blue;
+    transition: 0.3s ease;
+    
+}
+
+.nav-link {
+    margin-left: 13px;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    left: 42%;
+    margin: 20px 0 0 400px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #645cff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 1rem;
+    color: #fff;  
+    border: transparent;
+}
+
+.contact-link a {
+    text-decoration: none;
+}
+
+.contact-link a:hover {
+    background-color: #00008B;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.page-title{
+    padding: 130px 0px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(images/lunchimg.jpg);
+    background-size: cover;
+    background-position: 50% 0px;
+    margin-top: 90px;
+}
+
+.page-cont{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-cont h1{
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-cont span{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-left: 200px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page2{
+   
+    padding-top: 6rem;
+   
+}
+
+.sub-page{
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    padding-left: 7rem;
+    padding-right: 1.5rem;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.recipe-column{
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+  
+}
+
+.food-list a{
+    text-decoration: none;
+}
+
+.recipe img {
+    height: 16rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  
+}
+
+.recipe h5 {
+    margin-bottom: 0;
+    margin-top: 0.25rem;
+    line-height: 1;
+    color: #334155;
+}
+
+.recipe p {
+    margin-bottom: 0;
+    line-height: 1;
+    color: #64748b;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222223;
+    color: #fff;
+    margin-top: 80px;
+  }
+
+ footer p {
+    margin-bottom: 0;
+  }
+.footer-logo{
+    color: #645cff;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 300;
+  }
